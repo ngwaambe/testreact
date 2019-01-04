@@ -1,0 +1,54 @@
+{
+  "name"        : "test-react",
+  "version"     : "1.0.0",
+  "description" : "Amazing project.",
+  "license"     : "MIT",
+  "author" : {
+    "name"    : "Amazing Programmer",
+    "email"   : "wonderful@gmail.com"
+  },
+  "main" : "index.js",
+  "homepage" : "http://module-name.js.org/",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ngwaambe/testreact"
+  },
+
+  "dependencies": {
+  "axios" : "0.16.1",
+  "babel-core" : "6.24.1",
+  "babel-loader" : "6.4.1",
+  "babel-polyfill" : "6.23.0",
+  "babel-preset-es2015" : "6.24.1",
+  "babel-preset-react" : "6.24.1",
+  "babel-preset-stage-3" : "6.24.1",
+  "babel-runtime" : "6.23.0",
+  "clean-webpack-plugin" : "0.1.15",
+  "concurrently" : "3.4.0",
+  "css-loader" : "0.28.0",
+  "dotenv" : "4.0.0",
+  "prop-types" : "15.5.8",
+  "react" : "15.5.4",
+  "react-dom" : "15.5.4",
+  "react-redux" : "5.0.5",
+  "react-router" : "3.0.1",
+  "redux" : "3.6.0",
+  "redux-thunk" : "2.2.0",
+  "webpack" : "2.4.1"
+  },
+
+  "scripts": {
+    "start" : "node server.js",
+    "test" : "",
+    "dev" : "",
+    "node-dev" : "",
+    "node-prod" : "",
+    "build-dev" : "webpack — config webpack.dev.config.js",
+    "build-prod" : "webpack -p — config webpack.prod.config.js",
+    "test-watch" : "yarn test — — watch"
+  },
+
+  "babel": {
+    "presets": ["es2015", "react", "stage-3"]
+  }
+}
